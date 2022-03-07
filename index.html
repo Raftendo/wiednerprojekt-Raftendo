@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1{text-align: center;}
+        h2{text-align: center;}
+        body {
+            background-color: grey;
+            background-image: url('src/Minecraft-Background-Image-Background-Wallpaper-2053882.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        #sitechanger {
+            background-color: lightsteelblue;
+            -moz-border-radius: 1em;
+            -webkit-border-radius: 1em;
+            border-radius: 1em;
+        }
+    </style>
+    <title>Projekt Wiedner der Wiedner Schüler</title>
+</head>
+<body>
+    <h1>
+        <a href="mainpage.html">
+            <img src="src/Schwarz und weiß Kreis Rechtsanwalt und Anwaltskanzlei Logo.png" alt="mainlogo" width="150" height="150">
+        </a>
+        <br>
+        <font style="font-size: 20; color: black;" face="courier">
+            Welcome to Wiedner Projekt
+        </font>
+        <h2>
+            <a href="https://www.wiednergymnasium.at/">
+                <font>Wiedner Gymnasium</font>
+            </a>
+            <font>-</font>
+            <a href="https://www.youtube.com/channel/UCczyoFqjoobeZbKTUQwemGQ">
+                <font>Mein Kanal</font>
+            </a>
+            <font>-</font>
+            <a href="https://app.wiednergymnasium.at/moodle/login/index.php">
+                <font>Moodle Wiedner Gymnasium</font>
+            </a>
+        </h2>
+        <h2>
+            <select name="sitechanger" id="sitechanger" onchange="Onchange(this)">
+                <option value="mainpage">
+                    Hauptseite
+                </option>
+                <option value="projectinfo">
+                    Projektinfo
+                </option>
+            </select>
+        </h2>
+    </h1>
+    <script src="index.js"></script>
+</body>
+</html>
