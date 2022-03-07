@@ -2,7 +2,7 @@ function Onchange(menu) {
     let value = menu.options[menu.selectedIndex].value;
 
     if (value === "mainpage") {
-        loadwindow('mainpage.html')
+        loadwindow('index.html')
     }
     else if(value === "projectinfo") {
         loadwindow('projectinfo.html')
